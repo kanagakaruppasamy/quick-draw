@@ -1,0 +1,33 @@
+body
+{
+background-color: aquamarine;
+}
+
+h1
+{
+    color: rgb(188, 192, 255);
+    background-color: darkcyan;
+}
+#show_sketch
+{
+    float: right;
+}
+
+canvas
+{
+   border: 5px solid snow; 
+   border-radius: 20px;
+   animation-name: example;
+}
+
+@keyframes example
+{
+    from {box-shadow: teal;}
+    to {box-shadow: turquoise;}
+}
+
+p
+{
+padding-top: 10px;
+font-size: 20px;
+}
